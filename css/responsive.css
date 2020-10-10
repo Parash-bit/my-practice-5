@@ -1,0 +1,185 @@
+@media (max-width: 2100px) {
+	.menu-bar{
+		display: none;
+	}	
+	.check-box {
+		display: none;
+	}
+}
+@media (max-width: 1140px) {
+	.header-left {
+	float: left;
+	width: 25%;
+	margin-top: 30px;
+	padding-left: 16px;
+	}
+	.header-right {
+	width: 84%;
+}
+	.header-left {
+	width: 16%;
+}
+.service-items {
+	padding-left: 100px;
+}
+.single-service-item {
+	width: 40%;
+	margin-bottom: 60px;
+}
+.single-team-member {
+	width: 36%;
+	margin-bottom: 60px;
+}
+.team-members {
+	padding-left: 178px;
+}
+.circle {
+	height: 28%;
+	width: 28%;
+}
+.single-skill-item {
+	width: 47%;
+	margin-bottom: 40px;
+}
+.portfolio-items {
+	padding-left: 50px;
+}
+.single-portfolio-item {
+	width: 43%;
+}
+}
+
+@media (max-width: 992px) {
+	.header-right {
+	width: 86%;
+}
+ul.menu li a {
+	margin-right: 6px;
+	padding: 4px 15px;
+	font-size: 15px;
+}
+.header-left {
+	width: 14%;
+}
+.service-items {
+	padding-left: 0;
+}
+.single-service-item {
+	width: 100%;
+}
+#service-section {
+	padding: 66px 0;
+}
+.single-team-member {
+	width: 100%;
+	margin-bottom: 60px;
+}
+.team-members {
+	padding-left: 0;
+}
+.single-team-member-img img {
+	width: 20%;
+	height: 20%;
+	line-height: 20%;
+}
+.single-skill-item {
+	width: 45%;
+
+}
+.circle {
+	height: 31%;
+	width: 31%;
+}
+.circle {
+	height: 15%;
+	width: 15%;
+}
+.single-skill-item {
+	width: 100%;
+}
+.portfolio-items {
+	padding-left: 0;
+}
+.single-portfolio-item {
+	width: 100%;
+}
+.testimonial-items-img img {
+	width: 18%;
+	height: 18%;
+}
+.single-testimonial-item {
+	width: 100%;
+}
+.testimonial-items-img {
+	width: 100%;
+}
+.testimonial-items-content {
+	width: 100%;
+	text-align: center;
+}
+}
+@media (max-width: 768px) {
+	.header-left {
+	width: 50%;
+}
+	.header-right {
+	width: 50%;
+}
+.header-right {
+	margin-top: 24px;
+}
+ul.menu li {
+	display: block;
+	margin: 10px 0;
+}
+ul.menu li a {
+	display: inline-block;
+}
+.check-box {
+	height: 50px;
+	width: 50px;
+	cursor: pointer;
+	opacity: 0; 
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 19px;
+}
+.header-right ul {
+	opacity: 0;
+	visibility: hidden;
+	height: 0;
+}
+.header-right .check-box:checked ~ ul{
+	opacity: 1; 
+	visibility: visible;
+	height: 100%;
+}
+.menu-bar {
+	right: 14px;
+	top: 28px;
+	color: #fff;
+	font-size: 26px;
+	cursor: pointer;
+	display: block;
+	pointer-events: none;
+	padding-right: 10px;
+	display: block; 
+}
+h1 {
+	font-size: 30px;
+}
+.circle {
+	height: 18%;
+	width: 18%;
+}
+}
+
+@media (max-width: 568px) {
+	.circle {
+	height: 24%;
+	width: 24%;
+}
+}
+
+
